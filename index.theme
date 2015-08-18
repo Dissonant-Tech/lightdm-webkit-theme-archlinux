@@ -1,7 +1,7 @@
 [theme]
-name=Antergos
-version=2.1.0
-description=Antergos Theme
+name=ArchLinux
+version=0.5.0
+description=ArchLinux Theme
 engine=lightdm-webkit2-greeter
 url=index.html
 session=cinnamon
