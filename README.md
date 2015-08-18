@@ -15,7 +15,7 @@ Original can be [found here][1]. All credit goes to the great people who
 created, run, and maintain [Antergos][2].
 
 ## Screenshots
-<img src="img/screenshot1.jpg" alt="screenshot1" />
+<img src="img/screenshot1.png" alt="screenshot1" />
 
 ## Prerequisites
 
