@@ -35,7 +35,7 @@ user-session=your-session (gnome,cinnamon,xfce...)
 
 # Installation
 
-Can be installed through the AUR.
+Can be installed through the [AUR][6].
 
 This package does not conflict with [lightdm-webkit-theme-antergos][5]. To switch
 between the two just change the `webkit-theme=`  in `/etc/lightdm/lightdm-webkit2-greeeter.conf`
@@ -70,3 +70,4 @@ This theme works well with 96x96 images.
 [3]: https://wiki.archlinux.org/index.php/LightDM#Changing_your_avatar
 [4]: https://aur.archlinux.org/packages/archlinux-artwork/
 [5]: https://aur.archlinux.org/packages/lightdm-webkit-theme-antergos/
+[6]: https://aur.archlinux.org/packages/lightdm-webkit-theme-archlinux/
