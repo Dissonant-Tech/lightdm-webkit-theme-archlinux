@@ -38,7 +38,7 @@
             });
             var randBG = arrayBackground[Math.floor(Math.random() * arrayBackground.length)];
             $('.header').fadeTo('slow', 0.3, function() {
-                $(".header").css("background", "url('/usr/share/antergos/wallpapers/" + randBG + "')");
+                $(".header").css("background", "url('/usr/share/archlinux/wallpapers/" + randBG + "')");
             }).fadeTo('slow', 1);
         }
 
@@ -59,9 +59,9 @@
                     console.log("Turn off random");
                     localStorage.setItem("bgrandom", '0');
                     $('.header').fadeTo('slow', 0.3, function() {
-                        $(".header").css("background", "url('/usr/share/antergos/wallpapers/" + bg + "')");
+                        $(".header").css("background", "url('/usr/share/archlinux/wallpapers/" + bg + "')");
                     }).fadeTo('slow', 1);
-                    var bgurl = "url('/usr/share/antergos/wallpapers/" + bg + "')";
+                    var bgurl = "url('/usr/share/archlinux/wallpapers/" + bg + "')";
                     localStorage.setItem("bgsaved", bgurl)
                 }
             });
@@ -198,7 +198,7 @@
                             <div id="login" class="panel panel-default login-box fade">
                                 <div class="panel-heading text-center">
                                     <span class="pull-left">
-                                        <img src="img/antergos.png" alt="Antergos" />
+                                        <img src="img/archlinux.png" alt="Antergos" />
                                     </span>
                                     <span class="welcome">Welcome!</span>
                                     <span id="hostname" class="pull-right"></span>
