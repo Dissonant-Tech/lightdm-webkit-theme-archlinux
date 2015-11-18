@@ -23,7 +23,7 @@ created, run, and maintain [Antergos][2].
 * lightdm-webkit2-greeter
 * antergos-wallpapers (used for the background switcher)
 
-Enable `ligthdm-webkit2-greeter` by editing `/etc/lightdm/lightdm.conf` and setting `greeter-session` property to `lightdm-webkit2-greeter` :
+Enable `lightdm-webkit2-greeter` by editing `/etc/lightdm/lightdm.conf` and setting `greeter-session` property to `lightdm-webkit2-greeter` :
 
 ```
 [SeatDefaults]
