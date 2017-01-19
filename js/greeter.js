@@ -50,7 +50,7 @@ $(document).ready(function () {
 		for (var i in lightdm.users) {
 			var user = lightdm.users[i];
 			var tux = 'img/antergos-logo-user.png';
-			var imageSrc = user.image.length > 0 ? user.image : tux;
+			var imageSrc = user.image ? user.image : tux;
 			var lastSession = localStorage.getItem(user.name);
 			if (lastSession == null && lastSession == undefined) {
 				localStorage.setItem(user.name, lightdm.default_session);
