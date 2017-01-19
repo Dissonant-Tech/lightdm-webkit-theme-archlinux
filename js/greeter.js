@@ -167,6 +167,9 @@ $(document).ready(function () {
 		if (hh === 0 && is_twelveHr !== -1) {
 			hh = 12;
 		}
+		if (is_twelveHr === -1) {
+			suffix = "";
+		}
 		time.innerHTML = hh + ":" + mm + " " + suffix;
 	}
 
